@@ -1,9 +1,6 @@
 import "./App.css";
-import Counter from "./components/Counter";
-import TodoList from "./components/TodoList";
-
-import { Link } from "react-router";
-
+import { RouterProvider } from "react-router-dom";
+import { router } from "./routes/router";
 // Store
 // interface CounterState{
 //   value:number;
@@ -23,8 +20,7 @@ import { Link } from "react-router";
 // cannot update state directly need to make a copy of the state
 // update the copy  => then update the store
 
-import { RouterProvider } from "react-router-dom";
-import { router } from "./routes/router";
+
 
 function App() {
   return (
