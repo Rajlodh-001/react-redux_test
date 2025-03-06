@@ -1,8 +1,4 @@
 import "./App.css";
-import Counter from "./components/Counter";
-import TodoList from "./components/TodoList";
-
-import { Link } from "react-router";
 
 // Store
 // interface CounterState{
