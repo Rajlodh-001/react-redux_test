@@ -8,8 +8,8 @@ const Home = () => {
         
       <div className="nav-links">
         
-        <Link to="/redux-react-router/counter">Counter</Link>
-        <Link to="/redux-react-router/todolist">Todo List</Link>
+        <Link to="/react-redux_test/counter">Counter</Link>
+        <Link to="/react-redux_test/todolist">Todo List</Link>
 
         
       </div>

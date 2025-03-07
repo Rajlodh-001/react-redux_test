@@ -5,15 +5,15 @@ import Home from "../components/Home";
 
 export const router = createBrowserRouter([
   {
-    path: "/redux-react-router/",
+    path: "/react-redux_test/",
     element: <Home />,
   },
   {
-    path: "/redux-react-router/counter",
+    path: "/react-redux_test/counter",
     element: <Counter />,
   },
   {
-    path: "/redux-react-router/todolist",
+    path: "/react-redux_test/todolist",
     element: <TodoList />,
   },
 ]);
