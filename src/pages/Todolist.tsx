@@ -12,6 +12,7 @@ const TodoList = () => {
   const todos = useSelector((state: RootState) => state.todo.todos);
   const dispatch = useDispatch<AppDispatch>();
 
+
   const addNewTodo = () => {
     if (input.trim()) {
       dispatch(addTodo(input));

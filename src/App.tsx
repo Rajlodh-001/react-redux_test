@@ -1,5 +1,9 @@
 import "./App.css";
 
+import { RouterProvider } from "react-router-dom";
+import { router } from "./routes/router";
+
+
 // Store
 // interface CounterState{
 //   value:number;
@@ -19,8 +23,7 @@ import "./App.css";
 // cannot update state directly need to make a copy of the state
 // update the copy  => then update the store
 
-import { RouterProvider } from "react-router-dom";
-import { router } from "./routes/router";
+
 
 function App() {
   return (

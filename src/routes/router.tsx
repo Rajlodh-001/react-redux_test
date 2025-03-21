@@ -16,4 +16,6 @@ export const router = createBrowserRouter([
     path: "/todolist",
     element: <TodoList />,
   },
-]);
+],
+{ basename: "/react-redux_test" }
+);
